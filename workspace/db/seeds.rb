@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+movie1 = Movie.create(name: "Hary Potter", published_date: DateTime.now, cription: "Deneme Açıklama1")
+
+movie2 = Movie.create(name: "Kill Bill", published_date: DateTime.now, cription: "Deneme Açıklama2")

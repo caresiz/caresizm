@@ -1,0 +1,10 @@
+movie.all
+rake db:seed
+Movie.first
+Movies.all
+movies.all
+reload!
+Movie.all
+rails s
+exit
+Movie.last
